@@ -1,0 +1,98 @@
+/* =========================
+   Harassment Page Content
+   ========================= */
+
+/* ---------- Header Content ---------- */
+.harassment{
+    background-image: url('/harassment.jpg');
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+
+}
+.harassment-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem 1.5rem;
+  text-align: center;
+  
+}
+
+.harassment-content h1 {
+  
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.harassment-content p {
+  
+  color: #ffffff;
+  line-height: 1.7;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* ---------- Sections ---------- */
+.harassment-intro {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #000000; /* deep blue accent */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+section p {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+/* ---------- Lists ---------- */
+section ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: none;
+}
+
+section ul li {
+  position: relative;
+  padding: 0.6rem 0.75rem 0.6rem 1.8rem;
+  margin-bottom: 0.5rem;
+  background: #ffffff;
+  border-radius: 8px;
+  color: #333;
+  line-height: 1.5;
+}
+section>ul>li {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+section ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0.6rem;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .harassment-content {
+    padding: 2rem 1rem;
+  }
+
+}

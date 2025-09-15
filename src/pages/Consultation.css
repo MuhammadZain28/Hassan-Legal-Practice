@@ -1,0 +1,25 @@
+.consultation-header {
+    background: url('/contact.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.consultation-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.consultation-content p {
+    line-height: 1.5;
+    width: 40vw;
+}
+@media screen and (max-width: 768px) {
+    .consultation-content p {
+        width: 80vw;
+    }
+}

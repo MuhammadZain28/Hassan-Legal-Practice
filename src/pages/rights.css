@@ -1,0 +1,130 @@
+/* =========================
+   Women's Rights Page Styles
+   ========================= */
+
+/* ---------- Header Section ---------- */
+.rights {
+  background: url("/wrights.avif") no-repeat center center/cover;
+  padding: 2rem 1rem;
+  position: relative;
+  color: #fff;
+}
+
+.rights-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+  text-align: center;
+}
+
+.rights-content h1 {
+  
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.rights-content p {
+  
+  line-height: 1.7;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* ---------- Main Content (rights-intro) ---------- */
+.rights-intro {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ---------- Headings ---------- */
+.rights-intro h1 {
+  
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+
+.rights-intro h2 {
+  
+  font-weight: 600;
+  margin: 2rem 0 0.8rem 0;
+  color: #000;
+  border-left: 4px solid #2563eb;
+  padding-left: 0.6rem;
+}
+
+.rights-intro p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 0.8rem;
+}
+
+/* ---------- Lists ---------- */
+.rights-intro ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: none;
+}
+
+.rights-intro ul li {
+  position: relative;
+  padding: 0.6rem 0.75rem 0.6rem 1.8rem;
+  margin-bottom: 0.6rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  color: #333;
+  line-height: 1.5;
+  transition: background 0.2s ease;
+}
+
+.rights-intro ul li:hover {
+  background: #f0f4ff;
+}
+
+.rights-intro ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.rights-intro ul li strong {
+  color: #1a5276;
+}
+/* ---------- Contact / Help Section ---------- */
+.rights-intro h2.help {
+  color: #c0392b;
+}
+
+.rights-intro ul li.law-firm::before {
+  content: "✔";
+  color: #c0392b;
+}
+
+.rights-intro p strong {
+  color: #000;
+  font-weight: 600;
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 768px) {
+  .rights-content {
+    padding: 2.5rem 1rem 4rem;
+  }
+
+  .rights-intro {
+    margin: 1.5rem 1rem;
+    padding: 1.2rem 1rem;
+  }
+
+}

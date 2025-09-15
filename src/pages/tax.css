@@ -1,0 +1,74 @@
+
+/* Header */
+.tax {
+  background-image: url('/tax.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  padding: 2rem 1rem;
+  border-radius: 0 0 25px 25px;
+}
+.tax-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tax h1 {
+  
+  font-weight: bold;
+}
+
+.tax p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+/* Intro Section */
+.tax-intro {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tax-intro h1 {
+  
+  color: #000000;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tax-intro h2 {
+  font-size: 1.5rem;
+  color: #000000;
+  margin-top: 2rem;
+}
+
+.tax-intro p {
+  margin: 0.8rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.tax-intro ul {
+  margin: 1rem 0 1.5rem 1.5rem;
+}
+
+.tax-intro li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #444;
+}
+/* Responsive */
+@media (max-width: 768px) {
+
+  .tax-intro {
+    padding: 1.5rem;
+  }
+
+}

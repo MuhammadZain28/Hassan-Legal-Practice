@@ -1,0 +1,28 @@
+.child-maintenance-header {
+    background: url('/child.avif');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #fff;
+}
+.article-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+.lawyer-article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.lawyer-article h2 {
+    border-left: 5px solid rgba(0, 132, 255, 1);
+    padding-left: 10px;
+    color: rgb(3, 32, 59);
+}

@@ -1,0 +1,53 @@
+
+.heros-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heros-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transform: translate(0, -5.8rem);
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.525);
+  max-width: 70vw;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.heros-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0rem 2rem 2rem;
+  width: 60%;
+}
+.ctas {
+  display: grid;
+  place-self: center;
+  padding: 1rem 1.5rem;
+  margin: 2rem;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(35deg, rgb(161, 126, 54) 35%, rgb(194, 177, 104));
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.ctas:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 768px) {
+  .heros-content {
+    width: 100%;
+    padding: 1rem;
+  }
+  .heros-text {
+    width: 100%;
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,67 @@
+/* property.css */
+
+/* General Layout */
+.property {
+  background: url('/property.jpg') no-repeat center center/cover;
+  padding: 2rem;
+  text-align: center;
+}
+
+.property-content h1 {
+  
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.property-content p {
+  max-width: 850px;
+  margin: 0 auto;
+  
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+/* Intro Section */
+.property-intro {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.property-intro h1 {
+  
+  margin-bottom: 1.2rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.property-intro h2 {
+  
+  margin: 1.5rem 0 0.8rem;
+  color: #34495e;
+  border-left: 4px solid #3498db;
+  padding-left: 10px;
+}
+
+.property-intro p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.property-intro ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.property-intro ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+  color: #555;
+}

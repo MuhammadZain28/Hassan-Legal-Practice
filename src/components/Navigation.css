@@ -1,0 +1,109 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+    background: transparent;
+    z-index: 2000;
+}
+.logo {
+    width: 180px;
+}
+.navList {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0.6rem 2.5rem;
+    gap: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(255, 255, 255);
+    z-index: 2000;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+}
+.navList > li a {
+    text-decoration: none;
+    font-weight: 900;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.navList li a:hover {
+    color: rgb(161, 126, 54);
+    transition: color 0.3s ease;
+}
+.navButton {
+    background: linear-gradient(35deg, rgb(161, 126, 54) 35%, rgb(194, 177, 104));
+    border: none;
+    color: #ffffff;
+    width: 180px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    padding: 0.7rem 1rem;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.navButton:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 1s ease;
+}
+.dropdown {
+    display: flex;
+    top: 3.5rem;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+.dropdown a {
+    padding: 0.5rem 1.5rem;
+    border-bottom: 2px solid rgb(161, 126, 54);
+    color: #000000;
+    transition: border 0.3s ease;
+}
+.subdropdown {
+    display: flex;
+    left: 16.5rem;
+    top: 3.5rem;
+    width: 25vw;
+    opacity: 0;
+    z-index: 1000;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+.subdropdown ul {
+    list-style: none;
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+}
+.subdropdown ul li {
+    z-index: 1000;
+    margin: 1rem;
+    border-bottom: 2px solid rgb(161, 126, 54);
+    color: #000000;
+    transition: background 0.3s ease;
+}
+
+.subdropdown ul li a {
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+}
+.subdropdown ul li a:hover {
+    color: rgb(161, 126, 54);
+}

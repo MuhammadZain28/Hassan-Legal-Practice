@@ -1,0 +1,65 @@
+.nadra-container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.nadra-container h1 {
+  text-align: center;
+  
+  margin-bottom: 20px;
+  color: #000000;
+  border-bottom: 3px solid #3498db;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.nadra-container h2 {
+  margin-top: 25px;
+  
+  color: #000000;
+  border-left: 5px solid #3498db;
+  padding-left: 10px;
+}
+
+.nadra-container h3 {
+  margin-top: 18px;
+  
+  color: #000000;
+}
+
+.nadra-container p {
+  margin: 12px 0;
+  font-size: 1rem;
+}
+
+.nadra-container ul {
+  margin: 10px 0 15px 25px;
+}
+
+.nadra-container ul li {
+  margin-bottom: 6px;
+}
+
+.highlight {
+  background: #f9e79f;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.tip {
+  margin-top: 20px;
+  padding: 15px;
+  background: #eafaf1;
+  border-left: 6px solid #27ae60;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #145a32;
+}

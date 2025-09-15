@@ -1,0 +1,60 @@
+.oversea {
+  background-image: url('/khula.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+.divorce-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  color: rgb(255, 255, 255);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+.cta {
+  display: grid;
+  place-self: center;
+  padding: 1rem 1.5rem;
+  margin: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(35deg, rgb(161, 126, 54) 35%, rgb(194, 177, 104));
+  color: white;
+  cursor: pointer;
+}
+.about {
+  margin: 5rem 2rem 2rem 2rem;
+  gap: 4rem;
+}
+.oversea-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.oversea-content-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+.body {
+  line-height: 1.6;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+.content-container {
+  margin: 2rem 1rem;
+}
+

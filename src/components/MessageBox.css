@@ -1,0 +1,34 @@
+.message-box {
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #ffffff;
+    max-width: 350px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.message-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.message-box-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-type {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    color: #ffffff;
+    cursor: pointer;
+}
