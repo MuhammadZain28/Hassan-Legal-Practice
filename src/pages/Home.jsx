@@ -14,6 +14,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import { FaHandsHoldingChild } from "react-icons/fa6";
 import ContactButtons from "../components/ContactButtons";
+import { Helmet } from "react-helmet";
 
 function Home() {
   useEffect(() => {
@@ -27,10 +28,130 @@ function Home() {
   }
   return (
     <>
+      <Helmet>
+        <title>Advocate Hassan | Expert Family & Civil Lawyer in Karachi</title>
+        <meta
+          name="description"
+          content="Advocate Hassan provides expert legal services including divorce, child maintenance, property disputes, cyber law, and consultation for individuals and families in Karachi."
+        />
+        <meta
+          name="keywords"
+          content="Lawyer, Family Lawyer, Civil Lawyer, Divorce, Child Maintenance, Property Dispute, Cyber Law, Legal Consultation, Karachi"
+        />
+        <meta name="author" content="Advocate Hassan" />
+
+        <meta
+          property="og:title"
+          content="Advocate Hassan | Expert Family & Civil Lawyer"
+        />
+        <meta
+          property="og:description"
+          content="Providing expert legal services including divorce, child maintenance, property disputes, cyber law, and consultations."
+        />
+        <meta property="og:url" content="https://www.advocatehassan.com/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.advocatehassan.com/logo.png"
+        />
+
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="https://www.advocatehassan.com/favicon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="https://www.advocatehassan.com/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="https://www.advocatehassan.com/favicon-96x96.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="https://www.advocatehassan.com/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          href="https://www.advocatehassan.com/favicon.svg"
+          type="image/svg+xml"
+        />
+        <link
+          rel="mask-icon"
+          href="https://www.advocatehassan.com/safari-pinned-tab.svg"
+          color="#5bbad5"
+        />
+
+        <link
+          rel="manifest"
+          href="https://www.advocatehassan.com/site.webmanifest"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="https://www.advocatehassan.com/android-chrome-192x192.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="512x512"
+          href="https://www.advocatehassan.com/android-chrome-512x512.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Advocate Hassan | Expert Family & Civil Lawyer"
+        />
+        <meta
+          name="twitter:description"
+          content="Providing expert legal services including divorce, child maintenance, property disputes, cyber law, and consultations."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.advocatehassan.com/logo.png"
+        />
+
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "LegalService",
+              "name": "Advocate Hassan",
+              "image": "https://www.advocatehassan.com/logo.png",
+              "url": "https://www.advocatehassan.com",
+              "priceRange": "$$$",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Gillani Law chambers 5 Mozang Road, Lahore",
+                "addressLocality": "Lahore",
+                "addressRegion": "Punjab",
+                "postalCode": "54500",
+                "addressCountry": "PK"
+              },
+              "telephone": "+92-324-4536417",
+              "areaServed": "Lahore",
+              "description": "Providing expert legal services including divorce, child maintenance, property disputes, cyber law, and consultation."
+            }
+          `}
+        </script>
+      </Helmet>
       <ContactButtons />
       <header className="header">
         <Navigation />
-        <div className="header-content" data-aos="fade-up" data-aos-duration="500">
+        <div
+          className="header-content"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
           <div className="content-1">
             <h1 style={{ padding: "1rem 0" }}>
               FAMILY LAWYER & LAW FIRM IN LAHORE PAKISTAN
@@ -51,7 +172,12 @@ function Home() {
           <hr />
         </div>
         <div className="about-content-container">
-          <div className="about-content" data-aos="fade" data-aos-offset="200" data-aos-duration="800">
+          <div
+            className="about-content"
+            data-aos="fade"
+            data-aos-offset="200"
+            data-aos-duration="800"
+          >
             <h2>Best Family Lawyer in Lahore Pakistan</h2>
             <p style={{ lineHeight: "1.2" }}>
               Welcome to Hassan Legal Practice, where dedication, expertise, and
@@ -74,7 +200,9 @@ function Home() {
               compassion, skill, and determination. Choose Hassan Legal Practice
               — your trusted legal partner in Lahore.
             </p>
-            <Link to="/about"><button className="secondary">Learn More</button></Link>
+            <Link to="/about">
+              <button className="secondary">Learn More</button>
+            </Link>
           </div>
           <ContactForm />
         </div>
@@ -86,11 +214,20 @@ function Home() {
           <hr />
         </div>
         <div className="service-cards">
-          <Link to="/divorce" className="service-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-offset="200">
+          <Link
+            to="/divorce"
+            className="service-card"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+            data-aos-offset="200"
+          >
             <div className="service-icon">
               <img src="/divorceIcon.webp" alt="" />
             </div>
-            <h2 style={{ fontSize: 'clamp(1rem, 3vw, 1.3rem)'}}>Divorce & Khula</h2>
+            <h2 style={{ fontSize: "clamp(1rem, 3vw, 1.3rem)" }}>
+              Divorce & Khula
+            </h2>
             <p>
               Islam permits dissolution of marriage between Muslim spouses in
               three ways: &nbsp;
@@ -100,53 +237,96 @@ function Home() {
               Talaq, Khula, and Mubarat.
             </p>
           </Link>
-          <Link to="/marriage" className="service-card" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200">
+          <Link
+            to="/marriage"
+            className="service-card"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-offset="200"
+          >
             <div className="service-icon">
               <img src="/marriageIcon.webp" alt="" />
             </div>
-            <h2 style={{ fontSize: 'clamp(1rem, 3vw, 1.3rem)'}}>Marriage Registration</h2>
+            <h2 style={{ fontSize: "clamp(1rem, 3vw, 1.3rem)" }}>
+              Marriage Registration
+            </h2>
             <p>
               Marriage registration certificate is a legal document that serves
               as a proof of marriage between two individuals.
             </p>
           </Link>
-          <Link to="/child-maintenance" className="service-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-offset="200">
+          <Link
+            to="/child-maintenance"
+            className="service-card"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="400"
+            data-aos-offset="200"
+          >
             <div className="service-icon">
               <FaHandsHoldingChild size={100} color="#ffb24f" />
             </div>
-            <h2 style={{ fontSize: 'clamp(1rem, 3vw, 1.3rem)'}}>Child Maintenance</h2>
+            <h2 style={{ fontSize: "clamp(1rem, 3vw, 1.3rem)" }}>
+              Child Maintenance
+            </h2>
             <p>
               In Pakistan, child maintenance law requires that a parent,
               typically the father, is legally obligated to financially support.
             </p>
           </Link>
-          <Link to="/wifemaintenance" className="service-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-offset="200">
+          <Link
+            to="/wifemaintenance"
+            className="service-card"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="400"
+            data-aos-offset="200"
+          >
             <div className="service-icon">
               <img src="/maintenanceIcon.webp" alt="" />
             </div>
-            <h2 style={{ fontSize: 'clamp(1rem, 3vw, 1.3rem)'}}>Wife Maintenance</h2>
+            <h2 style={{ fontSize: "clamp(1rem, 3vw, 1.3rem)" }}>
+              Wife Maintenance
+            </h2>
             <p>
               Women facing financial and societal challenges during marital
               disputes often seek legal protection through the Wife Maintenance
               Law.
             </p>
           </Link>
-          <Link to="/rights" className="service-card" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200">
+          <Link
+            to="/rights"
+            className="service-card"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-offset="200"
+          >
             <div className="service-icon">
               <FaHouseUser size={100} color="#ffb24f" />
             </div>
-            <h2 style={{ fontSize: 'clamp(1rem, 3vw, 1.3rem)'}}>Women Property Rights</h2>
+            <h2 style={{ fontSize: "clamp(1rem, 3vw, 1.3rem)" }}>
+              Women Property Rights
+            </h2>
             <p>
-              Women Property Rights ensure that women have equal rights to
-              own, inherit, and manage property. This includes land, real
-              estate, and personal belongings.
+              Women Property Rights ensure that women have equal rights to own,
+              inherit, and manage property. This includes land, real estate, and
+              personal belongings.
             </p>
           </Link>
-          <Link to="/property" className="service-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-offset="200">
+          <Link
+            to="/property"
+            className="service-card"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="400"
+            data-aos-offset="200"
+          >
             <div className="service-icon">
               <FaHouseDamage size={100} color="#ffb24f" />
             </div>
-            <h2 style={{ fontSize: 'clamp(1rem, 3vw, 1.3rem)'}}>Property Disputes</h2>
+            <h2 style={{ fontSize: "clamp(1rem, 3vw, 1.3rem)" }}>
+              Property Disputes
+            </h2>
             <p>
               Property disputes involve conflicts over the ownership, use, or
               division of property. These disputes can arise between family

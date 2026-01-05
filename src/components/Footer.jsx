@@ -67,7 +67,7 @@ function Footer() {
             </li>
             <li style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
               <FaMapMarkerAlt />
-              <p style={{ fontSize: "clamp(0.8rem, 2vw, 1rem)" }}>Gillani Law chambers 5 Mozang road lahore</p>
+              <p style={{ fontSize: "clamp(0.8rem, 2vw, 1rem)" }}>Gillani Law chambers 5 Mozang Road, Lahore</p>
             </li>
           </ul>
         </footer>

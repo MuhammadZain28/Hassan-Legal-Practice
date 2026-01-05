@@ -1,27 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Pages -->
   <url>
     <loc>https://www.advocatehassan.com/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://www.advocatehassan.com/about</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.advocatehassan.com/contact</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
   <url>
     <loc>https://www.advocatehassan.com/services</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/blog</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/contact</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/about</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Important Services -->
+  <url>
+    <loc>https://www.advocatehassan.com/divorce</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/marriage</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/property</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/tax</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/service</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/consultation</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Medium-Priority Pages -->
+  <url>
+    <loc>https://www.advocatehassan.com/child-maintenance</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/wifemaintenance</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/cyber</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/rights</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/womenright</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Lower-Priority Pages -->
+  <url>
+    <loc>https://www.advocatehassan.com/khula</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/nadra</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/harassment</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.advocatehassan.com/oversea</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
